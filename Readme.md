@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Симонов](https://up.htmlacademy.ru/htmlcss/29/user/1500497).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Седельников](https://htmlacademy.ru/profile/iduckyduck).
 
 ---
 
