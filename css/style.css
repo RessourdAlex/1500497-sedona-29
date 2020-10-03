@@ -1,0 +1,159 @@
+:root {
+    --basic-black: #000000;
+    --basic-blue-light-3: #81B3D3;
+    --basic-blue-light-2: #81B3D2;
+    --basic-white: #ffffff;
+    --basic-extra-brown: #766357;
+    --basic-brown: #766458;
+    --basic-extra-grey: #333333;
+    --basic-grey: #A9A9A9;
+}
+body {
+    width: 1240px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    /*text-align: center;*/
+}
+
+.page a{
+    text-decoration: none;
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--basic-black);
+    background-color: transparent;
+    /*position: fixed;*/
+}
+
+.main-navigation-wrapper {
+    background-color: var(--basic-black);
+}
+
+.site-navigation-list {
+    list-style: none;
+}
+
+.city-description {
+    text-align: center;
+}
+
+.about-Sedona {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.five-causes {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.cause-list {
+    list-style: none;
+}
+
+.cause-item-blue {
+    width: 400px;
+    height: 256px;
+    text-align: center;
+    float: left;
+    color: var(--basic-white);
+    background-color: var(--basic-blue-light-2);
+}
+.cause-item-blue-2 {
+    width: 400px;
+    height: 256px;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 220px;
+    color: var(--basic-white);
+    background-color: var(--basic-blue-light-2);
+}
+
+.causes-title-blue {
+    width: 122px;
+    height: 43px;
+    margin-top: 35px;
+    margin-left: 139px;
+}
+
+.causes-number-blue {
+    width: 50px;
+    height: 21px;
+    margin-top: 35px;
+    margin-left: 175px;
+}
+
+.causes-text-blue {
+    width: 298px;
+    height: 43px;
+    margin-top: 35px;
+    margin-left: 51px;
+}
+
+.leisure {
+    list-style: none;
+}
+
+.cause-picture-1 {
+    margin-top: 30px;
+}
+
+.cause-picture-2 {
+    float: left;
+    position: relative;
+    top: 220px;
+}
+
+.cause-item-blue {
+    float: left;
+}
+.leisure-item-1 {
+    width: 254px;
+    height: 42px;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+}
+
+.leisure-item-2 {
+    width: 297px;
+    height: 42px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+}
+
+.cause-item-white-1 {
+     position: relative;
+     top: 250px;
+     width: 207px;
+     height: 43px;
+     float: left;
+    text-align: center;
+ }
+.cause-item-white-2 {
+    position: relative;
+    top: 250px;
+    width: 207px;
+    height: 43px;
+    float: left;
+    text-align: center;
+}
+.cause-item-white-3 {
+    position: relative;
+    top: 250px;
+    width: 207px;
+    height: 43px;
+    float: left;
+    text-align: center;
+}

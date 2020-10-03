@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
 </head>
-<body>
+<body class="page-body">
 
-<header>
-    <nav>
-        <a href="index.html">
+<header class="main-header">
+    <nav class="main-navigation">
+        <a class="main-navigation-logo">
             <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Логотип Седоны">
         </a>
-        <ul>
-            <li><a href="blank.html">Информация</a></li>
-            <li><a href="blank.html">Фото и видео </a></li>
-            <li><a href="blank.html">Карта штата</a></li>
-            <li><a href="hotels.html">Гостиницы</a></li>
+        <ul class="site-navigation-list">
+            <li class="site-navigation-item"><a href="blank.html">информация</a></li>
+            <li class="site-navigation-item"><a href="blank.html">фото и видео </a></li>
+            <li class="site-navigation-item"><a href="blank.html">карта штата</a></li>
+            <li class="site-navigation-item"><a href="hotels.html">гостиницы</a></li>
         </ul>
 
     </nav>
@@ -23,69 +23,69 @@
 </header>
 <main>
     <h1>Информация по гостиницам</h1>
-    <section>
+    <section class="hotel-filter">
         <h2>Фильтр отелей</h2>
     </section>
-    <section>
-        <p>Найдено: 3</p>
+    <section class="sorting">
+        <p class="quantity-sorted-hotels">Найдено: 3</p>
         <h2>Сортировка:</h2>
-        <ul>
-            <li><a href="#">По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По рейтингу</a></li>
+        <ul class="sorting-options-list">
+            <li class="sorting-options-item"><a href="#">По цене</a></li>
+            <li class="sorting-options-item"><a href="#">По типу</a></li>
+            <li class="sorting-options-item"><a href="#">По рейтингу</a></li>
         </ul>
     </section>
-    <section>
+    <section class="sorted-hotels">
         <h2>Список найденных отелей</h2>
-        <ul>
-            <li>
-                <div>
+        <ul class="sorted-hotels-list">
+            <li class="sorted-hotels-item">
+                <div class="hotels-picture">
                     <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Amara Resort & SPA">
                 </div>
                 <div>
-                    <a href="#">Amara resort & spa</a>
-                    <p>Гостиница от 4000 Р.</p>
+                    <a href="#" class="hotels-name">Amara resort & spa</a>
+                    <p class="hotels-cost">Гостиница от 4000 Р.</p>
                 </div>
                 <div>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать</button>
+                    <button class="hotels-description" type="button">Подробнее</button>
+                    <button class="booking" type="button">Забронировать</button>
                 </div>
                 <div>****</div>
-                <div>
+                <div class="rating">
                     Рейтинг: 8,5
                 </div>
             </li>
-            <li>
-                <div>
+            <li class="sorted-hotels-item">
+                <div class="hotels-picture">
                     <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Desert Qual INN">
                 </div>
                 <div>
-                    <a href="#">Desert qual inn</a>
-                    <p>Мотель от 3000 Р.</p>
+                    <a href="#" class="holels-name">Desert qual inn</a>
+                    <p class="hotels-cost">Мотель от 3000 Р.</p>
                 </div>
                 <div>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать</button>
+                    <button class="hotels-description" type="button">Подробнее</button>
+                    <button class="booking" type="button">Забронировать</button>
                 </div>
                 <div>***</div>
-                <div>
+                <div class="rating">
                     Рейтинг: 8,9
                 </div>
             </li>
-            <li>
-                <div>
+            <li class="sorted-hotels-item">
+                <div class="hotels-picture">
                     <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Amara Resort & SPA">
                 </div>
                 <div>
-                    <a href="#">Villas at poco diablo</a>
-                    <p>Апартаменты от 2000 Р.</p>
+                    <a href="#" class="holels-name">Villas at poco diablo</a>
+                    <p class="hotels-cost">Апартаменты от 2000 Р.</p>
                 </div>
                 <div>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать</button>
+                    <button class="hotels-description" type="button">Подробнее</button>
+                    <button class="booking" type="button">Забронировать</button>
                 </div>
                 <div>**</div>
-                <div>
+                <div class="rating">
                     Рейтинг: 9,2
                 </div>
             </li>
@@ -93,32 +93,32 @@
     </section>
 </main>
 
-<footer>
+<footer class="footer-relation">
     <h2>Контактные данные</h2>
-    <section>
-        <ul>
-            <li>
+    <section class="relation-phone">
+        <ul class="relation-phone-list">
+            <li class="relation-phone-item">
                 <a href="#">#VISITSEDONA</a>
             </li>
-            <li>
+            <li class="relation-phone-item">
                 ТЕЛ: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
             </li>
         </ul>
     </section>
-    <section>
-        <ul>
-            <li>
+    <section class="relation-social-networks">
+        <ul class="relation-social-networks-list">
+            <li class="relation-social-networks-item">
                 <a href="#">Twitter</a>
             </li>
-            <li>
+            <li class="relation-social-networks-item">
                 <a href="#">Facebook</a>
             </li>
-            <li>
+            <li class="relation-social-networks-item">
                 <a href="#">Youtube</a>
             </li>
         </ul>
     </section>
-    <section>
+    <section class="relation-Academy">
         <span>WEBSITE BY html academy</span>
         <a href="https://up.htmlacademy.ru./intensive/htmlcss9"><img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Copyright"></a>
     </section>
