@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.css-master/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
 
@@ -17,22 +20,21 @@
             <li class="site-navigation-item"><a href="blank.html">карта штата</a></li>
             <li class="site-navigation-item"><a href="hotels.html">гостиницы</a></li>
         </ul>
-
     </nav>
 
 </header>
-<main>
+<main class="main-content">
     <h1>Информация по гостиницам</h1>
     <section class="hotel-filter">
-        <h2>Фильтр отелей</h2>
+        <h2 class="filter">Фильтр отелей</h2>
     </section>
     <section class="sorting">
         <p class="quantity-sorted-hotels">Найдено: 3</p>
         <h2>Сортировка:</h2>
         <ul class="sorting-options-list">
-            <li class="sorting-options-item"><a href="#">По цене</a></li>
-            <li class="sorting-options-item"><a href="#">По типу</a></li>
-            <li class="sorting-options-item"><a href="#">По рейтингу</a></li>
+            <li class="sorting-options-item blue"><a href="#">По цене</a></li>
+            <li class="sorting-options-item border first"><a href="#">По типу</a></li>
+            <li class="sorting-options-item border second"><a href="#">По рейтингу</a></li>
         </ul>
     </section>
     <section class="sorted-hotels">
@@ -40,7 +42,7 @@
         <ul class="sorted-hotels-list">
             <li class="sorted-hotels-item">
                 <div class="hotels-picture">
-                    <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Amara Resort & SPA">
+                    <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="Amara Resort & SPA">
                 </div>
                 <div>
                     <a href="#" class="hotels-name">Amara resort & spa</a>
@@ -50,41 +52,71 @@
                     <button class="hotels-description" type="button">Подробнее</button>
                     <button class="booking" type="button">Забронировать</button>
                 </div>
-                <div>****</div>
+                <div>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                </div>
                 <div class="rating">
                     Рейтинг: 8,5
                 </div>
             </li>
             <li class="sorted-hotels-item">
                 <div class="hotels-picture">
-                    <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Desert Qual INN">
+                    <img src="https://via.placeholder.com/135x90" width="150" height="90" alt="Desert Qual INN">
                 </div>
                 <div>
-                    <a href="#" class="holels-name">Desert qual inn</a>
+                    <a href="#" class="hotels-name">Desert qual inn</a>
                     <p class="hotels-cost">Мотель от 3000 Р.</p>
                 </div>
                 <div>
                     <button class="hotels-description" type="button">Подробнее</button>
                     <button class="booking" type="button">Забронировать</button>
                 </div>
-                <div>***</div>
+                <div>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                </div>
                 <div class="rating">
                     Рейтинг: 8,9
                 </div>
             </li>
             <li class="sorted-hotels-item">
                 <div class="hotels-picture">
-                    <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Amara Resort & SPA">
+                    <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="Amara Resort & SPA">
                 </div>
                 <div>
-                    <a href="#" class="holels-name">Villas at poco diablo</a>
+                    <a href="#" class="hotels-name">Villas at poco diablo</a>
                     <p class="hotels-cost">Апартаменты от 2000 Р.</p>
                 </div>
                 <div>
                     <button class="hotels-description" type="button">Подробнее</button>
                     <button class="booking" type="button">Забронировать</button>
                 </div>
-                <div>**</div>
+                <div>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.002 0L11.128 6.494H18.005L12.441 10.506L14.566 17L9.002 12.987L3.438 17L5.564 10.506L0 6.494H6.878L9.002 0Z" fill="#81B3D2"/>
+                    </svg>
+                </div>
                 <div class="rating">
                     Рейтинг: 9,2
                 </div>
@@ -95,26 +127,34 @@
 
 <footer class="footer-relation">
     <h2>Контактные данные</h2>
-    <section class="relation-phone">
-        <ul class="relation-phone-list">
-            <li class="relation-phone-item">
-                <a href="#">#VISITSEDONA</a>
+    <section class="phone">
+        <ul class="phone-list">
+            <li class="phone-item">
+                <a href="blank.html">#VISITSEDONA</a>
             </li>
-            <li class="relation-phone-item">
+            <li class="phone-item">
                 ТЕЛ: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
             </li>
         </ul>
     </section>
-    <section class="relation-social-networks">
-        <ul class="relation-social-networks-list">
-            <li class="relation-social-networks-item">
-                <a href="#">Twitter</a>
+    <section class="social-networks">
+        <ul class="social-networks-list">
+            <li class="social-networks-item">
+                <a href="blank.html"><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.95 1.14409C12.635 0.648089 13.934 1.41409 14.527 2.32309C15.2 2.09209 15.858 1.84209 16.538 1.61509C16.5249 2.30145 16.2117 2.94761 15.681 3.38309C16.366 3.55309 16.985 2.89209 16.985 2.89209C16.816 3.89209 15.979 4.68009 15.422 4.91609C15.191 11.6661 12.247 16.1331 5.34498 15.9981H4.89898C4.48898 15.9981 0.734977 15.5381 0.000976562 14.1111C2.27198 14.3071 3.89398 13.6891 4.69398 12.9341C3.73398 12.6341 2.01498 12.4571 1.71498 9.98409C2.06398 10.0901 2.27898 10.2121 2.90498 10.1031C1.70498 9.24709 0.373977 8.53009 0.447977 6.33009C0.732977 6.65809 1.51498 6.86609 1.78798 6.80209C1.08498 6.56109 -0.182023 3.44209 0.893977 1.85009C2.71198 3.70409 4.62898 5.45609 8.04598 5.62309C8.25398 3.33009 9.18298 1.79309 10.95 1.14409Z" fill="white"/>
+                </svg>
+                </a>
             </li>
-            <li class="relation-social-networks-item">
-                <a href="#">Facebook</a>
+            <li class="social-networks-item">
+                <a href="blank.html"> <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white"/>
+                </svg></a>
             </li>
-            <li class="relation-social-networks-item">
-                <a href="#">Youtube</a>
+            <li class="social-networks-item">
+                <a href="blank.html"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H17C18.65 0 20 1.35 20 3V13C20 14.65 18.65 16 17 16H3C1.35 16 0 14.65 0 13V3C0 1.35 1.35 0 3 0ZM6.027 4.002V11.998L15.014 8L6.027 4.002Z" fill="white"/>
+                </svg>
+                </a>
             </li>
         </ul>
     </section>
@@ -122,6 +162,7 @@
         <span>WEBSITE BY html academy</span>
         <a href="https://up.htmlacademy.ru./intensive/htmlcss9"><img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Copyright"></a>
     </section>
+
 </footer>
 
 </body>
