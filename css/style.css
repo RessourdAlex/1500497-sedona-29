@@ -105,11 +105,11 @@ body {
      color: var(--basic-black);
  }
 
- .site-navigation-item a:hover,.Academy-style:hover {
+ .site-navigation-item a:hover, .Academy-style:hover, .hotels-name:hover {
      color: var(--basic-blue-light-2)
  }
 
-.site-navigation-item a:active,.Academy-style:active {
+.site-navigation-item a:active,.Academy-style:active, .hotels-name:active {
     color: var(--basic-grey-middle);
 }
 
