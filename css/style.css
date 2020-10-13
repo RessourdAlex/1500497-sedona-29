@@ -15,7 +15,13 @@
     --basic-grey-1: #818181;
 
 }
-body {
+
+/*стилизация главного контейнера*/
+.page a{
+    text-decoration: none;
+}
+
+.page-body {
     width: 1240px;
     margin: 0;
     padding: 0;
@@ -24,22 +30,29 @@ body {
     line-height: 24px;
     text-transform: uppercase;
     background-color: var(--basic-white);
-    /*text-align: center;*/
+}
+/*стилизация навигации*/
+.site-navigation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.site-navigation-item a{
+    color: var(--basic-black);
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
 }
 
-.page a{
-    text-decoration: none;
+.site-navigation-item a:hover, .hotels-name:hover {
+    color: var(--basic-blue-light-2)
 }
 
-.page-body {
-    width: 1200px;
-  margin: auto;
-    background-color: var(--basic-white);
+.site-navigation-item a:active, .hotels-name:active {
+    color: var(--basic-grey-1);
 }
-
-/*.main-navigation {*/
-    /*height: 56px;*/
-/*}*/
+/*удаление буллитов*/
 
 .visually-hidden {
     position: absolute;
@@ -49,12 +62,10 @@ body {
     margin: -1px;
 }
 
-/*.main-content h1, .filter{*/
-  /*display: none;*/
-/*}*/
+/*стилизация заголовка описания седоны*/
 
 .about-Sedona, .five-causes {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     text-align: center;
 }
 
@@ -62,8 +73,41 @@ body {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
-    height: auto;
 }
+
+/*стилизация описания преимуществ седоны*/
+
+.five-causes {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.cause-list, .leisure-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cause-item {
+    height: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.primary {
+    background-color: var(--basic-blue-light-2);
+    color: var(--basic-white);
+}
+
+.cause-title, .leisure-list h3 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+/*стилизация поиска гостиниц в седоне*/
 
 .selection-hotels, .selection-hotels h2, .five-causes  {
     text-align: center;
@@ -74,13 +118,6 @@ body {
     line-height: 24px;
 }
 
-.five-causes {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 26px;
-}
-
 .selection-hotels p {
     font-size: 14px;
     line-height: 21px;
@@ -88,115 +125,26 @@ body {
     margin: 0 auto;
 }
 
-.cause-list, .leisure-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.cause-item, .leisure-item {
-  height: auto;
-  text-align: center;
-  padding: 0;
-}
+/*стилизация контактов*/
 
-.primary {
-  background-color: var(--basic-blue-light-2);
-  color: var(--basic-white);
-}
-
-.cause-title, .leisure-list h3 {
+.phone-item, .phone-list {
+    color: var(--basic-black);
     font-size: 21px;
-    line-height: 21px;
+    line-height: 26px;
+    list-style: none;
     font-weight: bold;
- }
-
-/*.cause-number {*/
-/*}*/
-
-/*.cause-text {*/
-/*}*/
-
-/*.cause-title, .cause-number, .cause-text {*/
-  /*!*margin: 0 auto;*!*/
-/*}*/
-
-.leisure-item {
-  background-color: var(--basic-grey);
-  margin: auto;
-  text-align: center;
 }
 
- .site-navigation-list {
-     list-style: none;
-     margin: 0;
-     padding: 0;
-     height: 100%;
- }
- .site-navigation-item a{
-     color: var(--basic-black);
-     font-size: 14px;
-     line-height: 26px;
-     font-weight: bold;
- }
+/*стилизация иконок социальных сетей*/
 
- .site-navigation-item a:hover, .Academy-style:hover, .hotels-name:hover {
-     color: var(--basic-blue-light-2)
- }
-
-.site-navigation-item a:active,.Academy-style:active, .hotels-name:active {
-    color: var(--basic-grey-1);
-}
-
- /*.footer-relation h2 {*/
-     /*display: none;*/
- /*}*/
-
- /*.relation-Academy {*/
- /*}*/
-
- .phone-item, .phone-list {
-     color: var(--basic-black);
-     font-size: 21px;
-     line-height: 26px;
-     list-style: none;
-     font-weight: bold;
- }
-
-.size-icon-t {
+.social-networks-item {
+    width: 46px;
+    height: 48px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-color: var(--basic-blue-light-2);
-    text-align: center;
-    /*margin: 15px;*/
-    /*width: 46px;*/
-    /*height: 48px;*/
-    padding-left: 15.5px;
-    padding-right: 17.5px;
-    padding-top: 16.5px;
-    padding-bottom: 16.5px;
-}
-
-.size-icon-f {
-    background-color: var(--basic-blue-light-2);
-    text-align: center;
-    /*margin: 15px;*/
-    /*width: 46px;*/
-    /*height: 48px;*/
-    padding-left: 19px;
-    padding-right: 19px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.size-icon-y {
-    background-color: var(--basic-blue-light-2);
-    text-align: center;
-    /*margin: 15px;*/
-    /*width: 46px;*/
-    /*height: 48px;*/
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 18px;
-    padding-bottom: 16px;
 }
 
 .social-networks-item:hover {
@@ -215,7 +163,23 @@ body {
     opacity: 0.3;
 }
 
-/*.figure:active{}*/
+/*стилизация логотипа Академии*/
+
+.Academy-style:hover {
+    color: var(--basic-blue-light-2)
+}
+
+.Academy-style:active {
+    color: var(--basic-grey-1);
+}
+
+
+
+
+
+
+
+/*стили внутренней страницы*/
 
 .sorting-options-list, .sorted-hotels-list, .social-networks-list {
     list-style: none;
