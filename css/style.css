@@ -14,6 +14,7 @@
     --basic-grey: #A9A9A9;
     --basic-grey-1: #818181;
     --basic-grey-body: #F2F2F2;
+    --basic-text-font: #CACACA;
 
 }
 
@@ -50,11 +51,11 @@
     font-weight: bold;
 }
 
-.site-navigation-item a:hover, .hotels-name:hover {
+.site-navigation-item a:hover {
     color: var(--basic-blue-light-2)
 }
 
-.site-navigation-item a:active, .hotels-name:active {
+.site-navigation-item a:active {
     color: var(--basic-grey-1);
 }
 /*удаление буллитов*/
@@ -166,7 +167,7 @@
 }
 
 .opacity:active {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 
@@ -178,13 +179,62 @@
 
 /*стили внутренней страницы*/
 
+
+/*удаление буллитов списков внутренней страницы*/
 .sorting-options-list, .sorted-hotels-list, .social-networks-list {
     list-style: none;
 }
 
+.sorting, .sorted-hotels h2 {
+    font-size: 12px;
+    line-height: 18px;
+}
+/*стилизация элементов фильтра*/
+.color-filter {
+    color: var(--basic-text-font);
+}
+
+.color-filter:hover {
+    color: var(--basic-blue-light-2);
+}
+
+.color-filter:active {
+    color: var(--basic-black);
+}
+
+.sorting {
+    font-weight: normal;
+}
+
 .quantity-sorted-hotels, .hotels-name {
     font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
 }
+
+.blue{
+    color: var(--basic-blue-light-2)
+}
+
+/*стилизация названий отелей*/
+
+.hotels-name:hover {
+     color: var(--basic-blue-light-2);
+}
+
+.hotels-name:active {
+    color: var(--basic-grey-1);
+}
+
+/*стилизация информации об отеле*/
+
+.hotels-cost {
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--basic-extra-grey);
+}
+
+/*стилизация кнопок информации об отеле и его бронировании*/
 
 .hotels-description, .booking {
     font-weight: bold;
@@ -203,6 +253,7 @@
 .hotels-description:active {
     /*color: fade(#81B3D2, 30%);*/
     background-color: var(--basic-blue-extra);
+    color: var(--basic-text-font);
 }
 
 .booking {
@@ -215,40 +266,15 @@
 
 .booking:active {
     background-color: var(--basic-brown-extra-2);
-    /*box: 0 0 0 9999px rgba(0,0,0, 0.3);*/
+    color: var(--basic-text-font);
 }
 
-/*.sorting-options-item, .sorting h2 {*/
-/*}*/
-
-.blue a {
-    color: var(--basic-blue-light-2)
-}
-
-/*.rating, .hotels-cost {*/
-/*}*/
+/*стилизация рейтинга*/
 
 .rating {
+    font-size: 14px;
+    line-height: 21px;
     color: var(--basic-grey-middle)
 }
 
-.hotels-cost {
-    color: var(--basic-extra-grey)
-}
-
-/*.sorting-options-item{*/
-    /*border-bottom: 1px dotted;*/
-/*}*/
-
-.sorting-options-item:hover {
-    color: var(--basic-blue-light-2)
-}
-
-.sorting-options-item:active {
-    color: var(--basic-black)
-}
-
-
-/*.second {*/
-/*}*/
 
