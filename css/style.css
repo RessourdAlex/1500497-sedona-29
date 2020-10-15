@@ -185,6 +185,11 @@
     list-style: none;
 }
 
+.sorted-hotels-list, .phone-list {
+    margin: 0;
+    padding: 0;
+}
+
 .sorting, .sorted-hotels h2 {
     font-size: 12px;
     line-height: 18px;
@@ -192,6 +197,13 @@
 /*стилизация элементов фильтра*/
 .color-filter {
     color: var(--basic-text-font);
+    border-bottom: 1px dashed #81B3D2;
+}
+
+.filter-active {
+    color: var(--basic-blue-light-2);
+    border-bottom: 0;
+    text-decoration: none;
 }
 
 .color-filter:hover {
@@ -207,13 +219,10 @@
 }
 
 .quantity-sorted-hotels, .hotels-name {
+    color: var(--basic-black);
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
-}
-
-.blue{
-    color: var(--basic-blue-light-2)
 }
 
 /*стилизация названий отелей*/
@@ -237,9 +246,11 @@
 /*стилизация кнопок информации об отеле и его бронировании*/
 
 .hotels-description, .booking {
+    border: 0;
     font-weight: bold;
     color: var(--basic-white);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .hotels-description {
