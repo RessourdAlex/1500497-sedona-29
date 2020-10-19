@@ -44,18 +44,18 @@
     padding: 0;
     height: 100%;
 }
-.site-navigation-item{
+.site-navigation-item a{
     color: var(--basic-black);
     font-size: 14px;
     line-height: 26px;
     font-weight: bold;
 }
 
-.site-navigation-item:hover {
+.site-navigation-item a:hover {
     color: var(--basic-blue-light-2)
 }
 
-.site-navigation-item:active {
+.site-navigation-item a:active {
     color: var(--basic-grey-1);
 }
 /*удаление буллитов*/
