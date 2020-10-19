@@ -51,11 +51,11 @@
     font-weight: bold;
 }
 
-.site-navigation-item a:hover {
+.site-navigation-item:hover {
     color: var(--basic-blue-light-2)
 }
 
-.site-navigation-item a:active {
+.site-navigation-item:active {
     color: var(--basic-grey-1);
 }
 /*удаление буллитов*/
