@@ -44,7 +44,7 @@
     padding: 0;
     height: 100%;
 }
-.site-navigation-item a{
+.site-navigation-item{
     color: var(--basic-black);
     font-size: 14px;
     line-height: 26px;
@@ -173,10 +173,6 @@
 
 
 
-
-
-
-
 /*стили внутренней страницы*/
 
 
@@ -185,7 +181,7 @@
     list-style: none;
 }
 
-.sorted-hotels-list, .phone-list {
+.sorting-options-list, .sorted-hotels-list, .phone-list {
     margin: 0;
     padding: 0;
 }
@@ -204,6 +200,10 @@
     color: var(--basic-blue-light-2);
     border-bottom: 0;
     text-decoration: none;
+}
+
+.nav-active {
+    color: var(--basic-grey-1);
 }
 
 .color-filter:hover {
@@ -283,9 +283,12 @@
 /*стилизация рейтинга*/
 
 .rating {
+    width: 110px;
+    text-align: center;
     font-size: 14px;
     line-height: 21px;
-    color: var(--basic-grey-middle)
+    color: var(--basic-grey-middle);
+    background-color: var(--basic-grey-body);
 }
 
 
