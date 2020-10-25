@@ -15,6 +15,7 @@
     --basic-grey-1: #818181;
     --basic-grey-body: #F2F2F2;
     --basic-text-font: #CACACA;
+    --basic-logoAcad-font: #bdbbbc
 
 }
 
@@ -68,6 +69,24 @@
     margin: -1px;
 }
 
+.logo-background {
+    background: url("../img/background photo.jpg") no-repeat center;
+    width: 1200px;
+    height: 510px;
+}
+
+.welcome {
+    background: transparent url("../img/welcome.png") no-repeat center;
+    width: 457px;
+    height: 351px;
+}
+
+.white-background {
+    background: #ffffff url("../img/white-background.png") no-repeat center;
+    width: 1200px;
+    height: 57px;
+}
+
 /*стилизация заголовка описания седоны*/
 
 .about-Sedona, .five-causes {
@@ -79,6 +98,18 @@
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+}
+
+.cause-picture {
+    background: url("../img/image1.jpg") no-repeat center;
+    width: 800px;
+    height: 256px;
+}
+
+.cause-picture-2 {
+    background: url("../img/image2.jpg") no-repeat center;
+    width: 800px;
+    height: 256px;
 }
 
 /*стилизация описания преимуществ седоны*/
@@ -170,6 +201,19 @@
     opacity: 0.3;
 }
 
+.logo-Acad {
+    width: 115px;
+    height: 41px;
+    margin-left:5px;
+}
+
+.logo-Acad:hover {
+    fill:#81b3d2
+}
+.logo-Acad:active {
+    fill:#bdbbbc;
+}
+
 
 
 
@@ -223,6 +267,46 @@
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
+}
+
+.hotels-picture-1, .hotels-picture-2, .hotels-picture-3 {
+    width: 135px;
+    height: 90px;
+}
+
+.hotels-picture-1 {
+    background: url("../img/AMARA.jpg") no-repeat center;
+}
+
+.hotels-picture-2 {
+    background: url("../img/DESERT.jpg") no-repeat center;
+}
+
+.hotels-picture-3 {
+    background: url("../img/VILLAS.jpg") no-repeat center;
+}
+
+.clickup, .clickdown {
+    background-color: white;
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+    width: 12px;
+    cursor: pointer;
+}
+
+.click_active {
+    fill:#81b3d2;
+}
+
+.arrow_up {
+    fill: #cacaca;
+}
+.arrow_up:hover, .arrow_down:hover {
+    fill:#000000;
+}
+.arrow_up:active, .arrow_down:active {
+    fill:#81b3d2;
 }
 
 /*стилизация названий отелей*/
@@ -290,5 +374,3 @@
     color: var(--basic-grey-middle);
     background-color: var(--basic-grey-body);
 }
-
-
