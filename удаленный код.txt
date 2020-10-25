@@ -1,0 +1,82 @@
+ <div
+          class="logo-background">
+  </div>
+
+  <div
+          class="welcome">
+  </div>
+
+  <div
+          class="white-background">
+  </div>
+
+.logo-background {
+    background: url("../img/background photo.jpg") no-repeat center;
+    width: 1200px;
+    height: 510px;
+}
+
+.welcome {
+    background: transparent url("../img/welcome.png") no-repeat center;
+    width: 457px;
+    height: 351px;
+}
+
+.white-background {
+    background: #ffffff url("../img/white-background.png") no-repeat center;
+    width: 1200px;
+    height: 57px;
+}
+
+.cause-picture {
+    background: url("../img/image1.jpg") no-repeat center;
+    width: 800px;
+    height: 256px;
+}
+
+.cause-picture-2 {
+    background: url("../img/image2.jpg") no-repeat center;
+    width: 800px;
+    height: 256px;
+}
+
+
+.hotels-picture-1, .hotels-picture-2, .hotels-picture-3 {
+    width: 135px;
+    height: 90px;
+}
+
+.hotels-picture-1 {
+    background: url("../img/AMARA.jpg") no-repeat center;
+}
+
+.hotels-picture-2 {
+    background: url("../img/DESERT.jpg") no-repeat center;
+}
+
+.hotels-picture-3 {
+    background: url("../img/VILLAS.jpg") no-repeat center;
+}
+
+.clickup, .clickdown {
+    background-color: white;
+    border: 0;
+    padding: 0;
+    margin-left: 10px;
+    width: 12px;
+    cursor: pointer;
+}
+
+.click_active {
+    fill:#81b3d2;
+}
+
+.arrow_up {
+    fill: #cacaca;
+}
+.arrow_up:hover, .arrow_down:hover {
+    fill:#000000;
+}
+.arrow_up:active, .arrow_down:active {
+    fill:#81b3d2;
+}
