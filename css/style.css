@@ -25,6 +25,9 @@
 }
 
 .page-body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
@@ -38,8 +41,12 @@
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     background-color: var(--basic-white);
 }
+
 /*стилизация навигации*/
 .site-navigation-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-self: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -71,6 +78,11 @@
 
 /*стилизация заголовка описания седоны*/
 
+/*.causes {*/
+    /*display: grid;*/
+    /*align-self: start;*/
+/*}*/
+
 .about-Sedona, .five-causes {
     /*margin: 0 auto;*/
     text-align: center;
@@ -91,17 +103,55 @@
     line-height: 26px;
 }
 
-.cause-list, .leisure-list {
+.cause-list, .leisure-list, .list-1, .list-2, .list-3, .cause-item {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+.list-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.leisure-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: 254px 297px 269px;*/
+    grid-template-rows: 191px;
+    grid-column-gap: 124px;
+    margin-left: 73px;
+    margin-right: 65px;
+    margin-top: 60px;
+}
+
+.list-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.list-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 155px;
+    grid-column-gap: 158px;
+    margin-left: 96px;
+    margin-right: 77px;
+    margin-top: 47px;
+}
+
+
 
 .cause-item {
     height: auto;
     text-align: center;
     padding: 0;
 }
+.cause-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
 
 .primary {
     background-color: var(--basic-blue-light-2);
@@ -113,6 +163,7 @@
     line-height: 21px;
     font-weight: bold;
 }
+
 
 /*стилизация поиска гостиниц в седоне*/
 
@@ -132,6 +183,16 @@
     margin: 0 auto;
 }
 
+.selection-hotels {
+    display: grid;
+    align-content: start;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px;
+    margin-left: 383px;
+    margin-right: 382px;
+    margin-top: 58px;
+}
+
 
 /*стилизация контактов*/
 
@@ -147,7 +208,7 @@
 
 .social-networks-list {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 .social-networks-item {
@@ -184,8 +245,36 @@
     fill:#bdbbbc;
 }
 
+.footer-relation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    height: 120px;
+}
 
+.phone {
+    display: grid;
+    grid-auto-rows: 26px;
+    grid-row-gap: 9px;
+    width: 251px;
+    margin: 0;
+    justify-self: center;
+}
 
+.social-networks-list {
+    display: grid;
+    max-width: 150px;
+    margin: 0;
+    justify-self: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.relation-Academy {
+    max-width: 270px;
+    margin: 0;
+    justify-self: end;
+}
 
 /*стили внутренней страницы*/
 
